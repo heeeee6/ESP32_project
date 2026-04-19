@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="demo1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo1.elf">
+				<Option output="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/demo1.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Inc"/>
+					<Add directory="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 demo1.elf"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo1.elf/fast">
+				<Option output="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/demo1.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Inc"/>
+					<Add directory="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 demo1.elf/fast"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ASUS/Desktop/FinalCodeF1/demo1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Inc/adc.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Inc/dma.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Inc/gpio.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Inc/main.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Inc/stm32f1xx_it.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Inc/tim.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Inc/usart.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/adc.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/dma.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/gpio.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/json/cJSON.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/json/cJSON.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/json/cJSON_Utils.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/json/cJSON_Utils.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/json/malloc.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/json/malloc.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/main.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTConnect.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTConnectClient.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTConnectServer.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTDeserializePublish.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTFormat.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTFormat.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTPacket.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTPacket.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTPublish.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTSerializePublish.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTSubscribe.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTSubscribeClient.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTSubscribeServer.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTUnsubscribe.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTUnsubscribeClient.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/MQTTUnsubscribeServer.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/mqtt/StackTrace.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/stm32f1xx_it.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/syscalls.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/system_stm32f1xx.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/tim.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/usart.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/chip_id.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/chip_id.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/devInfo.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/devInfo.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/esp01s.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/esp01s.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/h7contect.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/h7contect.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/heartbeat.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/heartbeat.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/init.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/init.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/key.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/key.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/motor.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/motor.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/mqttCmd.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/mqttCmd.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/mqtt_config.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/mqtt_queue.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/mqtt_queue.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/myExti.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/myExti.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/myMqtt.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/myMqtt.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/myMqttSub.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/myMqttSub.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/myPrintf.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/myPrintf.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/net.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/net.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/rgb.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Core/Src/user/rgb.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Device/ST/STM32F1xx/License.md">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/CMSIS/LICENSE.txt">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/License.md">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/STM32F103RCTx_FLASH.ld">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/startup/startup_stm32f103xe.s">
+			<Option target="demo1.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/ASUS/Desktop/FinalCodeF1/demo1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

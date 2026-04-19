@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Core/Inc/main.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/json/malloc.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/json/malloc.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/syscalls.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/usart.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/user/myPrintf.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/user/myPrintf.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" charset="GBK" />
+  </component>
+</project>

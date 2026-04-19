@@ -1,0 +1,3 @@
+C:/Users/ASUS/Desktop/Embed_competition/FinalCodeF1/demo1/build/CMakeFiles/demo1.elf.dir
+C:/Users/ASUS/Desktop/Embed_competition/FinalCodeF1/demo1/build/CMakeFiles/edit_cache.dir
+C:/Users/ASUS/Desktop/Embed_competition/FinalCodeF1/demo1/build/CMakeFiles/rebuild_cache.dir
